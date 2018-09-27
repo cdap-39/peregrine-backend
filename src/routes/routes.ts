@@ -13,8 +13,7 @@ export default function setRoutes(app: any) {
 
     app.use("/api", router);
 
-    router.route("/login").post(userCtrl.login);
-    router.route("/login").post(userCtrl.login);
+    router.route("/login").post(userCtrl.login);;
     router.route("/articles").get(userCtrl.getAllArticles);
     router.route("/save").post(userCtrl.saveArticles);
     router.route("/submit").post(userCtrl.submitArticles);

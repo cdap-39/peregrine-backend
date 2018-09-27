@@ -1,7 +1,9 @@
 // import * as dotenv from "dotenv";
+import * as jwt from "jsonwebtoken";
 import Article from "../Model/articles";
 import SavedArticle from "../Model/savedArticles";
 import SubmitArticle from "../Model/submitArticles";
+import Users from "../Model/users";
 
 export default class UserCtrl  {
 
@@ -10,9 +12,30 @@ export default class UserCtrl  {
     }
 
     public login(req: any, res: any) {
-
-       return res.status(200).json("success");
-
+       // const user =  new User({name: "Nilantha Fernando", payment: 0 , username: "Fernando@gamil.com", password: "b6af7328112c61491ed0b7ab618c5f2a2e522154da208fdc966c47a2ef7b35a972c2c9874032d853886725a48adfff2c9d244a0f9be6b1e60ee0f5d42301264e" });
+       // user.save();
+        const loginUser = req.body;
+        const username  = req.body.username.toString();
+        console.log(username.toLocaleLowerCase());
+        Users.findOne({username : username.toLocaleLowerCase() }, (err: any, user: any) => {
+                if (err || user === null) {
+                   console.log(err);
+                   return res.status(401).json("Invalid credential");
+                } else {
+                    console.log(user.password === req.body.password.toString());
+                    if (user.password === req.body.password.toString()) {
+                      const createtoken = {
+                        name: user.name,
+                        payment: user.payment,
+                        username: user.username,
+                      };
+                      const token = jwt.sign(createtoken, "abcd1234", { expiresIn: "2d" });
+                      return res.status(200).json({token});
+                   } else {
+                       return res.status(401).json("Invalid credential");
+                   }
+                }
+            });
     }
 
     public signUp = (req: any, res: any) => {
