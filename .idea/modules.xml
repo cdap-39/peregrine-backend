@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/peregrine-backend.iml" filepath="$PROJECT_DIR$/.idea/peregrine-backend.iml" />
+      <module fileurl="file://D:/Research Final repos/pregrine-frontend/.idea/pregrine-frontend.iml" filepath="D:/Research Final repos/pregrine-frontend/.idea/pregrine-frontend.iml" />
+      <module fileurl="file://D:/Research Final repos/text-classification/text-classification/.idea/text-classification.iml" filepath="D:/Research Final repos/text-classification/text-classification/.idea/text-classification.iml" />
     </modules>
   </component>
 </project>
