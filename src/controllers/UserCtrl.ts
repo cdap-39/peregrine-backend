@@ -54,6 +54,23 @@ export default class UserCtrl  {
                  });
 
     };
+    public getAllUsers = (req: any, res: any) => {
+
+                console.log(req.body);
+                Users.find({}).then((response: any) => {
+                         console.log(response)  ;
+                         const articles: any[] = [];
+                          response.forEach((item: any) => {
+                                   item.password = "hide";
+                                   articles.push(item);
+                           });
+                     console.log(articles);
+                    return res.status(200).json(articles);
+                }).catch((err: Error) => {
+                      return res.status(401).json(err.message.toString());
+                });
+
+    };
 
     public getAllArticles(req: any, res: any) {
         console.log("request");
@@ -184,10 +201,40 @@ export default class UserCtrl  {
                                    return res.status(401).json("fail");
                                 } else {
                                    console.log(findUserResults);
+                                   this.chageStatus(article);
                                    return res.status(200).json("success");
                                }
                       });
 
+    };
+
+    public chageStatus(article: any){
+        console.log("article checking");
+        SubmitArticle.findOne({_id: article._id}).then( (review:any) => {
+               let check = false;
+               console.log(review);
+               review.senders.forEach( (user:any) => {
+                    console.log("user status"+user.status);
+                    if(user.status === ''){
+                       check = true
+                    }
+               });
+               if(!check){
+                   SubmitArticle.update({ _id: article._id }, {
+                      $set: {
+                              status: "Success",
+                            },
+                      }, { multi: true },
+                      (findUserErr, findUserResults) => {
+                               if (findUserErr) {
+                                   console.log("Article Successfully reviewd");
+                                } else {
+                                   console.log(findUserResults);
+                                   console.log("Article Successfully reviewd fail");
+                               }
+                      });
+               }
+           });
     }
 
 }

@@ -16,6 +16,7 @@ export default function setRoutes(app: any) {
     router.route("/login").post(userCtrl.login);
     router.route("/signup").post(userCtrl.signUp);
     router.route("/articles").get(userCtrl.getAllArticles);
+    router.route("/users").get(userCtrl.getAllUsers);
     router.route("/save").post(userCtrl.saveArticles);
     router.route("/submit").post(userCtrl.submitArticles);
     router.route("/getAllsavedArticles").get(userCtrl.getAllsavedArticles);
