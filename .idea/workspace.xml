@@ -6,13 +6,7 @@
       <change beforePath="D:/Research Final repos/text-classification/text-classification/Text+Classification+using+python,+scikit+and+nltk.py" afterPath="D:/Research Final repos/text-classification/text-classification/Text+Classification+using+python,+scikit+and+nltk.py" />
       <change beforePath="D:/Research Final repos/text-classification/text-classification/others/LICENSE" afterPath="" />
       <change beforePath="D:/Research Final repos/text-classification/text-classification/others/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/peregrine-backend.iml" afterPath="$PROJECT_DIR$/.idea/peregrine-backend.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Model/users.ts" afterPath="$PROJECT_DIR$/src/Model/users.ts" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/UserCtrl.ts" afterPath="$PROJECT_DIR$/src/controllers/UserCtrl.ts" />
-      <change beforePath="$PROJECT_DIR$/src/routes/routes.ts" afterPath="$PROJECT_DIR$/src/routes/routes.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,52 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="top-nav.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/shared/top-nav/top-nav.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tools.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/tools/tools.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tools.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/tools/tools.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="356" column="78" lean-forward="false" selection-start-line="356" selection-start-column="78" selection-end-line="356" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build_dir.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../article-category-model/build_dir.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="medical.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../article-category-model/build_category/medical.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Text+Classification+using+python,+scikit+and+nltk.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Text+Classification+using+python,+scikit+and+nltk.py" pinned="false" current-in-tab="false">
         <entry file="file://D:/Research Final repos/text-classification/text-classification/Text+Classification+using+python,+scikit+and+nltk.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
-              <caret line="124" column="35" lean-forward="true" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -127,11 +75,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tools.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/tools/tools.component.css">
+      <file leaf-file-name="login.component.spec.ts" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/login/login.component.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="305" column="21" lean-forward="false" selection-start-line="305" selection-start-column="21" selection-end-line="305" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-370">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/signup/signup.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="66" column="14" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tools.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/tools/tools.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/view/view.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="56" column="3" lean-forward="true" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -142,6 +134,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pay</find>
+      <find>peregrine-backend</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -355,7 +348,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5102362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32755905" sideWeight="0.49707174" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32755905" sideWeight="0.49707174" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -472,30 +465,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/signup/signup.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#73#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/signup/signup.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="66" column="14" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,16 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/view/view.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/shared/top-nav/top-nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -551,16 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/tools/tools.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="20" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -630,10 +585,54 @@
     <entry file="file://D:/Research Final repos/text-classification/text-classification/Text+Classification+using+python,+scikit+and+nltk.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
-          <caret line="124" column="35" lean-forward="true" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/login/login.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-370">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/signup/signup.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="66" column="14" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/tools/tools.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Research Final repos/pregrine-frontend/src/app/view/view.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="56" column="3" lean-forward="true" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
