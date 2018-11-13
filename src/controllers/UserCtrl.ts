@@ -40,9 +40,21 @@ export default class UserCtrl  {
 
     public signUp = (req: any, res: any) => {
 
-             return res.status(200).json("success");
+                console.log(req.body);
+                const user = JSON.parse(JSON.stringify(req.body));
+                const dbUser = new Users(user);
+                dbUser.save((error: Error, data: any) => {
+                            if (error) {
+                               console.log(error);
+                               return res.status(401).json("fail");
+                            } else {
+                                 return res.status(200).json("success");
+                            }
 
-    }
+                 });
+
+    };
+
     public getAllArticles(req: any, res: any) {
         console.log("request");
         Article.find({}).then((response: any) => {
