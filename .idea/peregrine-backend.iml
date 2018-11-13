@@ -8,7 +8,7 @@
     <orderEntry type="library" name="R Skeletons" level="application" />
     <orderEntry type="library" name="tsconfig$roots" level="project" />
     <orderEntry type="library" name="tsconfig$roots" level="project" />
-    <orderEntry type="module" module-name="pregrine-frontend" />
     <orderEntry type="module" module-name="text-classification" />
+    <orderEntry type="module" module-name="Peregrine-frontend-new" />
   </component>
 </module>
